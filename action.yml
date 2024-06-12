@@ -2,7 +2,7 @@ name: 'Automatic pull request review'
 description: '👍 Github action to automate pull requests'
 author: 'Andrew Musgrave <andrewdmusgrave@gmail.com>'
 runs:
-  using: 'node16'
+  using: 'node20'
   main: 'dist/index.js'
 branding:
   icon: 'thumbs-up'
